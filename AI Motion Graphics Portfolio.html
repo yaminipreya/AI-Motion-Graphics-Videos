@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Motion Graphics Portfolio</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#faf7f5;--card:#fff;--text:#1d1822;--muted:#6b6375;--line:#e9e1e7;--a:#7c3aed;--b:#ec4899}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0b13;--card:#181320;--text:#f5f0f9;--muted:#a99fb6;--line:#2b2336;--a:#a78bfa;--b:#f472b6}}
+:root[data-theme="dark"]{--bg:#0e0b13;--card:#181320;--text:#f5f0f9;--muted:#a99fb6;--line:#2b2336;--a:#a78bfa;--b:#f472b6}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+.w{max-width:1080px;margin:0 auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+nav b{letter-spacing:.04em}nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:18px}
+.hero{padding:56px 0 48px}
+.eyebrow{color:var(--a);font-weight:600;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+h1{font-size:clamp(34px,7vw,64px);line-height:1.05;letter-spacing:-.03em;margin:14px 0 18px;max-width:760px}
+h1 span,h2 span{background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--muted);font-size:18px;max-width:560px;margin:0 0 28px}
+.btn{display:inline-block;background:linear-gradient(90deg,var(--a),var(--b));color:#fff;text-decoration:none;font-weight:600;padding:13px 24px;border-radius:999px;border:0;cursor:pointer;font-size:15px}
+.btn.o{background:transparent;color:var(--text);border:1px solid var(--line);margin-left:10px}
+section{padding:40px 0}
+h2{font-size:clamp(24px,4vw,34px);margin:0 0 6px;letter-spacing:-.02em}
+.sec{color:var(--muted);margin:0 0 24px}
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.svc div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.svc h3{margin:0 0 4px;font-size:16px}.svc p{margin:0;color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:16px}
+.card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:transform .18s,box-shadow .18s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(124,58,237,.18)}
+.th{aspect-ratio:9/12;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:18px;position:relative;text-align:center}
+.hl{color:#fff;font-weight:700;font-size:20px;line-height:1.2;text-shadow:0 2px 10px rgba(0,0,0,.3)}
+.play{width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.93);display:flex;align-items:center;justify-content:center}
+.play::after{content:"";border-left:15px solid #7c3aed;border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:4px}
+.tag{position:absolute;top:12px;left:12px;background:rgba(0,0,0,.42);color:#fff;font-size:12px;padding:3px 10px;border-radius:999px}
+.in{padding:12px 14px;font-size:14px;color:var(--muted)}.in b{color:var(--text);display:block;font-size:15px}
+#more{display:none;margin-top:16px}#more.on{display:grid}
+.mid{text-align:center;margin-top:22px}
+.cta{background:linear-gradient(135deg,var(--a),var(--b));border-radius:24px;padding:44px 24px;text-align:center;color:#fff;margin:24px 0 40px}
+.cta h2{color:#fff}.cta p{margin:6px auto 22px;max-width:480px;opacity:.92}
+.cta .btn{background:#fff;color:#5b21b6;margin:4px 5px}.cta .btn.o{background:transparent;color:#fff;border:1px solid #fff}.wa{margin-top:16px;font-size:14px;opacity:.92}
+footer{color:var(--muted);font-size:13px;text-align:center;padding:0 0 32px}
+</style>
+</head>
+<body>
+<div class="w">
+<nav><b>AI MOTION</b><div><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero">
+  <div class="eyebrow">Video &amp; Motion Graphics</div>
+  <h1>Short videos that <span>stop the scroll</span>.</h1>
+  <p class="lead">AI-powered motion graphics, reels and promos, crafted to tell your story fast and look great on every screen.</p>
+  <a class="btn" href="#work">View my work</a><a class="btn o" href="#contact">Get in touch</a>
+</header>
+
+<section id="services">
+  <h2>What I <span>create</span></h2>
+  <p class="sec">Four formats, built for social media and brand promotion.</p>
+  <div class="svc">
+    <div><h3>Makeup &amp; Beauty Reels</h3><p>Polished, high-glam edits for artists and beauty brands.</p></div>
+    <div><h3>Motion Graphics Videos</h3><p>Animated visuals and titles that make your message stand out.</p></div>
+    <div><h3>Story Videos</h3><p>Cinematic short stories made with AI visuals.</p></div>
+    <div><h3>Promo Videos</h3><p>Eye-catching spots that put your brand first.</p></div>
+  </div>
+</section>
+
+<section id="work">
+  <h2>Selected <span>work</span></h2>
+  <p class="sec">Tap any video to watch.</p>
+  <div class="grid" id="g"></div>
+  <div class="grid" id="more"></div>
+  <div class="mid"><button class="btn o" id="tg" style="margin:0">See more work</button></div>
+</section>
+
+<section id="contact">
+  <div class="cta">
+    <h2>Let’s make something great</h2>
+    <p>Have a project in mind? Send a message and let’s talk about your next video.</p>
+    <a class="btn" href="https://wa.me/918499975426?text=Hi%2C%20I%20saw%20your%20video%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">Chat on WhatsApp</a><a class="btn o" href="mailto:yaminipriyajunee411@gmail.com?subject=Video%20project">Send an email</a><div class="wa">WhatsApp: +91 84999 75426</div>
+  </div>
+</section>
+<footer>© 2026 AI Motion · Videos open in Google Drive</footer>
+</div>
+<script>
+var V=[
+["Bridal Glow: The Classic Look","Bridal Makeup","1mhc1fhju8aZrImUVMtwq7Bn8hSeK-tgp"],
+["Bridal Glow: Modern Elegance","Bridal Makeup","1vRg8bfQ3jtJhkexANoFJR0pHK9Znim8b"],
+["AI News in 25 Seconds","AI Updates","1Q5GA3DKzwaDDReynFMa4NJEbyiV3WfQp"],
+["This Week in AI","AI Updates","1-fikB3qzHOITuWvM6sCmeKjv0umoXtGt"],
+["A Story in Motion","Stories","1UxV7x-RUgryt3ETxnxx0vLilnPK7s1W4"],
+["AI Storytelling Reel","Stories","1uMo2Q7k2t8XJKOs5jhS86_D7K1NlP-k9"],
+["Brand Promo Spotlight","Promo","18HVQe1I8_0si4YO1_UlACf2J0H2VybAV"],
+["Fast-Cut Edited Reel","Reel","1I2ZuJt1V4WEC4v_vHtooyEwSbMc96Td4"],
+["Motion Showcase 01","Showcase","1w2O2_xvlt92uWGlqJEEMKeetSWiuoefV"],
+["Motion Showcase 02","Showcase","1sJ-m7T-RPN9v1UeN5Q-V0r7-BaBhyA4n"],
+["Motion Showcase 03","Showcase","13ZvkYYaroDqKq255lthqjzkanIrNN0KL"],
+["Motion Showcase 04","Showcase","16uyPapopH58ZID95HQKjJXLpJPy7s6Dq"],
+["Motion Showcase 05","Showcase","14vQtmE7M1hjjxZWSJrm3IXX_MzH_U9T9"],
+["Motion Showcase 06","Showcase","1lnejR3KheuubsOaOx0Jjd-7j2EHY8E7D"],
+["Motion Showcase 07","Showcase","1yn_kZuGrkNgqi5ufwhnEuZLssGtc9MgX"],
+["Motion Showcase 08","Showcase","1xXhri3RRjq8Rfg8bXrNpJiDSOoeAhCwV"],
+["Motion Showcase 09","Showcase","1NIRBq12yOFM5kb0ICJ4viBfQOvf_Y3FN"],
+["Motion Showcase 10","Showcase","1vIaMF76SWJrQKFI2gR1z0HWa_JjNuDk3"],
+["Motion Showcase 11","Showcase","1cLPlwVCm3haXGXetmFYlsbaT6U_9gD_F"],
+["Motion Showcase 12","Showcase","13JUAMH2MiDip_uZSiz3hMCdU1Wm4Nc4g"]];
+var G=["linear-gradient(135deg,#7c3aed,#ec4899)","linear-gradient(135deg,#0ea5e9,#7c3aed)","linear-gradient(135deg,#f59e0b,#ec4899)","linear-gradient(135deg,#10b981,#0ea5e9)"];
+function c(v,i){return '<a class="card" target="_blank" rel="noopener" href="https://drive.google.com/file/d/'+v[2]+'/view"><div class="th" style="background:'+G[i%4]+'"><span class="tag">'+v[1]+'</span><div class="hl">'+v[0]+'</div><div class="play"></div></div><div class="in"><b>Watch video</b>'+v[1]+'</div></a>'}
+document.getElementById("g").innerHTML=V.slice(0,8).map(c).join("");
+document.getElementById("more").innerHTML=V.slice(8).map(function(v,i){return c(v,i+8)}).join("");
+var m=document.getElementById("more"),t=document.getElementById("tg");
+t.onclick=function(){m.classList.toggle("on");t.textContent=m.classList.contains("on")?"Show less":"See more work"};
+</script>
+</body>
+</html>
